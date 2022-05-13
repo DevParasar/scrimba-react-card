@@ -1,0 +1,105 @@
+.businnes_card {
+  margin: 20px auto;
+  width: 317px;
+  border-radius: 10px 10px 0 0;
+}
+.image-card {
+  /* width: 317px; */
+  width: 317px;
+  height: 300px;
+  border-radius: 10px 10px 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../assets/DevParasar.jpg);
+}
+.info-card {
+  height: 399px;
+  padding: 20px 35px 31px 35px;
+  background-color: #f5f5f5;
+}
+.center {
+  text-align: center;
+}
+.center > h1 {
+  font-size: 2.5rem;
+  color: #2b283a;
+}
+.center > span {
+  margin-top: 0.5rem;
+  font-size: 1.28rem;
+  color: #f47d27;
+}
+.center > p {
+  margin-top: 0.881rem;
+  color: #4a4e74;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  width: 115px;
+  height: 34px;
+  margin-top: 17px;
+  padding: 9px 13px 9px 11px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+.btn-email {
+  background-color: #fff;
+}
+.btn-email > img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.btn-email > span {
+  color: #374151;
+}
+.btn-linkedin {
+  background-color: #297fe5;
+}
+.btn-linkedin > img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.btn-linkedin > span {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+}
+.content-card > span {
+  margin-top: 25px;
+  display: block;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #2b283a;
+}
+.content-card > p {
+  margin-top: 5px;
+  line-height: 150%;
+  font-size: 1.1rem;
+  color: #4a4e74;
+}
+.footer-card {
+  width: 317px;
+  border-radius: 0 0 10px 10px;
+  background-color: #d5d4d8;
+}
+.footer-icons {
+  width: 172px;
+  height: 64px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
